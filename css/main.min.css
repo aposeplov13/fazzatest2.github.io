@@ -944,9 +944,19 @@
      -moz-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: red; }
+  background: red;
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+     -moz-box-flex: 0;
+      -ms-flex: none;
+          flex: none; }
   @media only screen and (max-width: 767px) {
     .howwework {
+      -webkit-box-flex: 0;
+      -webkit-flex: none;
+         -moz-box-flex: 0;
+          -ms-flex: none;
+              flex: none;
       height: 105.875rem;
       background-repeat: no-repeat;
       background-position-x: center; } }
