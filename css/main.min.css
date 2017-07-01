@@ -2825,7 +2825,7 @@
     margin: 1rem auto;
     display: none;
     cursor: pointer; }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 1023px) {
       .brandrepair .btn {
         display: block;
         font-size: 16px;
