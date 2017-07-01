@@ -997,27 +997,9 @@
         padding-bottom: 2rem;
         margin-bottom: 0; } }
   .howwework .howwework-wrap {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-       -moz-box-orient: horizontal;
-       -moz-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-       -moz-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
-    height: 100%;
     padding-bottom: 2rem; }
   .howwework .howwework_item {
-    background: yellow;
+    background: pink;
     height: 310px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1053,7 +1035,7 @@
            -moz-box-flex: 0;
             -ms-flex: none;
                 flex: none;
-        background: #FF8306; } }
+        background: orange; } }
     .howwework .howwework_item .howwework_icon {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1109,7 +1091,7 @@
           margin: 0 auto;
           width: 50%; } }
     .howwework .howwework_item .howwework_link {
-      background: #FF8306;
+      background: orange;
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
