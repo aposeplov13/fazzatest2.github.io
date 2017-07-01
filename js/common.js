@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	alert("privet8");
 	//menusecond collapse
 	$(".btn_menusecond").click(function(){
 		$(".menusecond").toggle("slow");

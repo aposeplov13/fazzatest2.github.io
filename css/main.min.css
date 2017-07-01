@@ -924,7 +924,6 @@
 .howwework {
   padding-top: 0;
   overflow: hidden;
-  background: url("../img/background/howwework-bg-1920.png");
   -o-background-size: 100% 100%;
      background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -944,12 +943,11 @@
   -webkit-justify-content: space-between;
      -moz-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  background: red; }
   @media only screen and (max-width: 767px) {
     .howwework {
-      background: #FFFFFF;
       height: 105.875rem;
-      background: url("../img/background/bg-howwework-320.svg");
       background-repeat: no-repeat;
       background-position-x: center; } }
   .howwework .howwework_title {
@@ -1565,7 +1563,6 @@
   background: #0C97CD; }
   .callcourier .callcourier_body {
     height: 100%;
-    background: url("../img/background/callcourier-bg-1280.svg");
     background-repeat: no-repeat;
     background-position: center center;
     -o-background-size: contain;
