@@ -1017,6 +1017,7 @@
     height: 100%;
     padding-bottom: 2rem; }
   .howwework .howwework_item {
+    background: yellow;
     height: 310px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1099,6 +1100,7 @@
           margin: 0 auto;
           width: 50%; } }
     .howwework .howwework_item .howwework_link {
+      background: #FF8306;
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
@@ -1117,6 +1119,7 @@
       margin: 0 auto;
       width: 90%; }
     .howwework .howwework_item .howwework_offer {
+      background: red;
       text-align: center;
       color: #88979D;
       font-size: 14px;
