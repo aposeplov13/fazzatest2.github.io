@@ -1035,7 +1035,12 @@
        -moz-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    overflow: hidden; }
+    overflow: hidden;
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+       -moz-box-flex: 0;
+        -ms-flex: none;
+            flex: none; }
     @media only screen and (max-width: 767px) {
       .howwework .howwework_item {
         height: 318px; } }
@@ -1050,7 +1055,7 @@
          -moz-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      padding-bottom: 2rem; }
+      padding-bottom: 3.2rem; }
       @media only screen and (max-width: 767px) {
         .howwework .howwework_item .howwework_icon {
           padding-top: 2rem;
@@ -1105,24 +1110,44 @@
           -ms-flex-pack: center;
               justify-content: center;
       text-align: center;
+      color: #0C97CD;
+      font-size: 14px;
+      font-family: "roboto", sans-serif;
+      font-weight: 400;
+      margin: 0 auto;
+      width: 90%; }
+    .howwework .howwework_item .howwework_offer {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+         -moz-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      text-align: center;
       color: #88979D;
       font-size: 14px;
       font-family: "roboto", sans-serif;
       font-weight: 400;
       margin: 0 auto;
       width: 90%; }
-  .howwework .howwework_item-last .howwework_icon {
-    padding-top: 2rem;
-    padding-bottom: 1.4rem; }
-    @media only screen and (max-width: 767px) {
-      .howwework .howwework_item-last .howwework_icon {
-        padding-bottom: 2.6rem; } }
-  @media only screen and (max-width: 767px) {
+  .howwework .howwework_item:nth-of-type(4n) {
+    padding-top: 1.4rem; }
     .howwework .howwework_item:nth-of-type(4n) .howwework_icon {
-      padding-bottom: 2.6rem; } }
-  @media only screen and (max-width: 767px) {
+      padding-bottom: 2.4rem; }
+      @media only screen and (max-width: 767px) {
+        .howwework .howwework_item:nth-of-type(4n) .howwework_icon {
+          padding-bottom: 1.2rem; } }
+  .howwework .howwework_item:nth-of-type(5n) {
+    padding-top: 1.4rem; }
     .howwework .howwework_item:nth-of-type(5n) .howwework_icon {
-      padding-bottom: 3.6rem; } }
+      padding-bottom: 2.4rem; }
+      @media only screen and (max-width: 767px) {
+        .howwework .howwework_item:nth-of-type(5n) .howwework_icon {
+          padding-bottom: 2.2rem; } }
 
 .defects {
   background: url("../img/background/price-bg-1920-full.png");
