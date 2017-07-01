@@ -1134,6 +1134,8 @@
       font-weight: 400;
       margin: 0 auto;
       width: 90%; }
+      .howwework .howwework_item .howwework_offer img {
+        margin-left: 0.5rem; }
   .howwework .howwework_item:nth-of-type(4n) {
     padding-top: 1.4rem; }
     .howwework .howwework_item:nth-of-type(4n) .howwework_icon {
