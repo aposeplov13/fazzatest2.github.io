@@ -1042,9 +1042,18 @@
        -moz-box-flex: 0;
         -ms-flex: none;
             flex: none; }
+    @media only screen and (max-width: 1023px) {
+      .howwework .howwework_item {
+        background: green; } }
     @media only screen and (max-width: 767px) {
       .howwework .howwework_item {
-        height: 318px; } }
+        height: 318px;
+        -webkit-box-flex: 0;
+        -webkit-flex: none;
+           -moz-box-flex: 0;
+            -ms-flex: none;
+                flex: none;
+        background: #FF8306; } }
     .howwework .howwework_item .howwework_icon {
       display: -webkit-box;
       display: -webkit-flex;
