@@ -1571,7 +1571,6 @@
 .callcourier {
   background: #0C97CD; }
   .callcourier .callcourier_body {
-    height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
     -o-background-size: contain;
@@ -1600,7 +1599,6 @@
             align-items: center; }
     @media only screen and (max-width: 1023px) {
       .callcourier .callcourier_wrap {
-        min-height: 18rem;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
