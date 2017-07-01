@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	alert("privet2");
+	alert("privet3");
+	window.addEventListener('resize', mediaSize, false);  
 	$(".btn_menusecond").click(function(){
 		$(".menusecond").toggle("slow");
 	});	
@@ -17,7 +18,6 @@ $(document).ready(function(){
 		}
 	};
   mediaSize();
-	window.addEventListener('resize', mediaSize, false);  
 });
 	
 	
