@@ -922,8 +922,10 @@
           margin-top: 2.5rem; } }
 
 .howwework {
+  background: #FFFFFF;
   padding-top: 0;
   overflow: hidden;
+  background: url("../img/background/howwework-bg-1920.png");
   -o-background-size: 100% 100%;
      background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -944,7 +946,6 @@
      -moz-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #0BAFF0;
   -webkit-box-flex: 0;
   -webkit-flex: none;
      -moz-box-flex: 0;
@@ -958,6 +959,8 @@
          -moz-box-flex: 0;
           -ms-flex: none;
               flex: none;
+      height: 105.875rem;
+      background: url("../img/background/bg-howwework-320.svg");
       background-repeat: no-repeat;
       background-position-x: center; } }
   .howwework .howwework_title {
