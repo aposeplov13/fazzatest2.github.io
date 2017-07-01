@@ -1017,7 +1017,7 @@
     height: 100%;
     padding-bottom: 2rem; }
   .howwework .howwework_item {
-    background: pink;
+    background: yellow;
     height: 310px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1127,15 +1127,6 @@
       font-weight: 400;
       margin: 0 auto;
       width: 90%; }
-    .howwework .howwework_item .howwework_offer {
-      background: red;
-      text-align: center;
-      color: #88979D;
-      font-size: 14px;
-      font-family: "roboto", sans-serif;
-      font-weight: 400; }
-      .howwework .howwework_item .howwework_offer img {
-        margin-left: 0.5rem; }
   .howwework .howwework_item:nth-of-type(4n) {
     padding-top: 1.4rem; }
     .howwework .howwework_item:nth-of-type(4n) .howwework_icon {
