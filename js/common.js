@@ -1,5 +1,5 @@
-$(document).ready(function(){
-	alert("privet3");
+$(document).load(function(){
+	alert("privet4");
 	window.addEventListener('resize', mediaSize, false);  
 	$(".btn_menusecond").click(function(){
 		$(".menusecond").toggle("slow");
