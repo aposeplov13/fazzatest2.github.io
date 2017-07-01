@@ -2793,7 +2793,8 @@
        -moz-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 11%; }
+    width: 11%;
+    cursor: pointer; }
     @media only screen and (max-width: 1279px) {
       .brandrepair .brandrepair_item {
         width: 14%; } }
@@ -2807,7 +2808,6 @@
       .brandrepair .brandrepair_item {
         width: 100%; } }
     .brandrepair .brandrepair_item:hover {
-      cursor: pointer;
       -webkit-transition-duration: slow;
          -moz-transition-duration: slow;
            -o-transition-duration: slow;

@@ -1,10 +1,10 @@
 $(document).ready(function(){
-	alert("privet5");
+	alert("privet6");
 	window.addEventListener('resize', mediaSize, false);  
 	$(".btn_menusecond").click(function(){
 		$(".menusecond").toggle("slow");
 	});	
-	$(".btn_brandrepair").click(function(){
+	$(".btn_brandrepair").live("click",function(){
 		$(".brandrepair_item-hide").toggle("slow");
 	});	
 	function mediaSize() { 
