@@ -944,7 +944,7 @@
      -moz-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: red;
+  background: #FF8306;
   -webkit-box-flex: 0;
   -webkit-flex: none;
      -moz-box-flex: 0;
@@ -957,7 +957,6 @@
          -moz-box-flex: 0;
           -ms-flex: none;
               flex: none;
-      height: 105.875rem;
       background-repeat: no-repeat;
       background-position-x: center; } }
   .howwework .howwework_title {
